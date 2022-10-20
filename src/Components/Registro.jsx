@@ -155,7 +155,6 @@ const Registro = () => {
       setError("En el campo 'telefono' no se han digitado valores numéricos");
       return true;
     }
-
     try {
       const db = firebase.firestore()
       await db.collection('usuarios').doc(id).update({
