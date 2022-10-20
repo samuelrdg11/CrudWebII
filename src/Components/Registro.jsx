@@ -1,8 +1,6 @@
 import React from 'react'
 import { nanoid } from "nanoid"
 import { firebase } from '../firebase'
-
-
 const Registro = () => {
   const [nombre, setNombre] = React.useState('')
   const [apellido, setApellido] = React.useState('')
