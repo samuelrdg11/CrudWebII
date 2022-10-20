@@ -29,7 +29,7 @@ const Registro = () => {
     }
     obtenerDatos()
   }, [])
-  
+
   const guardarDatos = async (e) => {
     e.preventDefault()
     if (!nombre.trim()) {
@@ -106,7 +106,6 @@ const Registro = () => {
       console.log(error);
     }
   }
-
   const editar = (elemento) => {
     setModoEdicion(true)
     setNombre(elemento.nombre)
