@@ -278,7 +278,6 @@ const Registro = () => {
                 <th>Imagen</th>
               </tr>
             </thead>
-
             <tbody>
               {
                 (
