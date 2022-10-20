@@ -29,8 +29,7 @@ const Registro = () => {
     }
     obtenerDatos()
   }, [])
-
-
+  
   const guardarDatos = async (e) => {
     e.preventDefault()
     if (!nombre.trim()) {
